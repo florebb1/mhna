@@ -77,9 +77,7 @@ $(function(){
         html += ' </address> ';
         html += ' <div class="footer_bottom"> ';
         html += ' <ul class="social"> ';
-        html += ' <li class="social_item social_blog"><a href="http://blog.naver.com/phlox__" target="_blank">blog</a></li> ';
-        html += ' <li class="social_item social_codepen"><a href="https://codepen.io/nykim_/" target="_blank">codepen</a></li> ';
-        html += ' <li class="social_item social_github"><a href="https://github.com/AnnYKim" target="_blank">github</a></li> ';
+        html += ' <li class="social_item social_github"><a href="https://github.com/florebb1" target="_blank">github</a></li> ';
         html += ' </ul> ';
         html += ' <p class="update">Last Updated On '+updateDay+', 2020</p> ';
         html += ' <p class="copyright">&copy; 2020 MINHO NA</p> ';
