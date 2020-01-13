@@ -477,7 +477,7 @@ var customSubPage = {
     '코인원':
         {
 
-            'show': true, //메인화면에서 보일지 여부를 선택합니다.
+            'show': false, //메인화면에서 보일지 여부를 선택합니다.
             'name': 'coinone', //폴더 및 이미지의 이름입니다. CSS 스타일링 역시 반드시 이 이름으로 지정해야 합니다.
 
             'title': 'Coinone Admin',
@@ -501,7 +501,7 @@ var customSubPage = {
     'AR GEAR':
         {
 
-            'show': true,
+            'show': false,
             'name': 'arGear',
 
             'title': 'AR GEAR',
@@ -525,7 +525,7 @@ var customSubPage = {
     '스테이지':
         {
 
-            'show': true,
+            'show': false,
             'name' : 'stayge',
 
             'title': 'STAYGE One',
@@ -547,7 +547,7 @@ var customSubPage = {
     'ICOP':
         {
 
-            'show': true,
+            'show': false,
             'name': 'icop',
 
             'title': 'ICO Platform',
@@ -569,7 +569,7 @@ var customSubPage = {
     '파트너스 협약식':
         {
 
-            'show': true,
+            'show': false,
             'name': 'partners',
 
             'title': 'Presentation Page',
@@ -612,7 +612,7 @@ var customSubPage = {
     'Chain Sign':
         {
 
-            'show': true,
+            'show': false,
             'name': 'sign',
 
             'title': 'Chain SIGN',
@@ -634,7 +634,7 @@ var customSubPage = {
     '챙스타':
         {
 
-            'show': true,
+            'show': false,
             'name': 'changstarr',
 
             'title': 'Lyrics for Changstarr',
@@ -657,7 +657,7 @@ var customSubPage = {
     '3M HCA':
         {
 
-            'show': true,
+            'show': false,
             'name': 'hca',
 
             'title': '3M HCA',
@@ -681,7 +681,7 @@ var customSubPage = {
     '구 포트폴리오':
         {
 
-            'show': false,
+            'show': true,
             'name': 'old',
 
             'title': 'Old Portfolio',
@@ -703,7 +703,7 @@ var customSubPage = {
     'SBI 저축은행':
         {
 
-            'show': true,
+            'show': false,
             'name': 'sbi',
 
             'title': 'SBI BANK',
@@ -724,7 +724,7 @@ var customSubPage = {
     'ICON 초기 랜딩페이지':
         {
 
-            'show': false,
+            'show': true,
             'name': 'icon',
 
             'title': 'ICON LANDING',
