@@ -404,14 +404,14 @@ $(function(){
             $burger.add($logo).removeClass('onTop');
 
             $('h1').on('click',function(){
-                window.location.href = '/';
+                window.location.href = '/mhna';
             });
         }
        if ($(".wrap.work").length){
 
 
             $('h1').on('click',function(){
-                window.location.href = '/';
+                window.location.href = '/mhna';
             });
         }
     });
