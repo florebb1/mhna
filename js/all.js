@@ -16,12 +16,9 @@ $(function(){
         html += ' <div class="fixed"> ';
             html += ' <h1 class="logo"> ';
                 html += ' <span class="text_hide">N의 포트폴리오</span> ';
-                html += ' <div> ';
-                    html += ' <img src="images/logo.png" style="width:45px; height:45px;"/>';
-                    // html += ' <svg class="title_logo" enable-background="new 0 0 240 236" version="1.1" viewBox="0 0 300 260" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> ';
-                    // html += ' <polygon points="49 236 49 52.2 178.9 236 240 236 240 0 191 0 191 174.7 69.8 0 0 0 0 236" fill="#ffd40a"/> ';
-                    // html += ' </svg> ';
-                html += ' </div> ';
+                // html += ' <div> ';
+                    html += ' <img src="images/logo.png" style="width:2.5rem; height:2.5rem;"/>';
+                // html += ' </div> ';
             html += ' </h1> ';
             html += ' <div class="menu" role="button" tabindex="0"> ';
                 html += ' <div class="menu_burger" tabindex="0"> ';
