@@ -110,7 +110,6 @@ $(function(){
 
 
 
-    console.log('안녕하세요222! :D');
     console.log('안녕하세요! :D');
 
 
