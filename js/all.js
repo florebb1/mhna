@@ -28,7 +28,7 @@ $(function(){
         html += ' <nav class="gnb" style="display:none"> ';
         html += ' <h2 class="text_hide">Navigation</h2> ';
         html += ' <ul class="nav"> ';
-        html += ' <li class="menu_item"><a href="/">HOME.</a></li> ';
+        html += ' <li class="menu_item"><a href="/mhna">HOME.</a></li> ';
         html += ' <li class="menu_item menu_work"><a href="/mhna/#work">WORK.</a></li> ';
         html += ' <li class="menu_item menu_about"><a href="/mhna/about.html">ABOUT.</a></li> ';
         html += ' </ul> ';
