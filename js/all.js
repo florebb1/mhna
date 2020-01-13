@@ -29,8 +29,8 @@ $(function(){
         html += ' <h2 class="text_hide">Navigation</h2> ';
         html += ' <ul class="nav"> ';
         html += ' <li class="menu_item"><a href="/">HOME.</a></li> ';
-        html += ' <li class="menu_item menu_work"><a href="../#work">WORK.</a></li> ';
-        html += ' <li class="menu_item menu_about"><a href="../about.html">ABOUT.</a></li> ';
+        html += ' <li class="menu_item menu_work"><a href="/mhna/#work">WORK.</a></li> ';
+        html += ' <li class="menu_item menu_about"><a href="/mhna/about.html">ABOUT.</a></li> ';
         html += ' </ul> ';
         html += ' <div class="contact"> ';
         html += ' <a href="mailto:mhp3nd25@gmail.com" class="contact_link">  ';
