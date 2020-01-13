@@ -1,16 +1,16 @@
 /*common.js*/
 $(function(){
-    
+
     //로딩 이미지 제거
     function removeLoading(){
        $(".loading").fadeOut(800);
        //$(".loading").css({'z-index':'-100'});
     }
-    
-    
+
+
     // GNB 생성 함수
     function gnbMaker(){
-        
+
         var html = '';
 
         html += ' <div class="fixed"> ';
@@ -56,8 +56,8 @@ $(function(){
 
         $(".header").append(html);
     }
-    
-    
+
+
     // Footer 생성 함수
     function footerMaker(){
 
@@ -84,34 +84,34 @@ $(function(){
                 html += ' <li class="social_item social_github"><a href="https://github.com/AnnYKim" target="_blank">github</a></li> ';
             html += ' </ul> ';
             html += ' <p class="update">Last Updated On '+updateDay+', 2018</p> ';
-            html += ' <p class="copyright">&copy; 2018 NY KIM</p> ';
+            html += ' <p class="copyright">&copy; 2020 MINHO NA</p> ';
         html += ' </div> ';
 
         $(".footer").append(html);
-        
-    }
-    
-    
 
-    
+    }
+
+
+
+
     $(window).on('load',function(){
-       
-        
+
+
         setTimeout(function(){
             removeLoading();
         },100);
-        
-        
+
+
         gnbMaker();
         footerMaker();
-        
+
     });
-        
-        
-               
-           
-        
+
+
+
+
+
     console.log('안녕하세요! :D');
-    
-    
+
+
 });
