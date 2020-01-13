@@ -454,7 +454,7 @@ var customSubPage = {
     '코인원':
         {
 
-            'show': false, //메인화면에서 보일지 여부를 선택합니다.
+            'show': true, //메인화면에서 보일지 여부를 선택합니다.
             'name': 'coinone', //폴더 및 이미지의 이름입니다. CSS 스타일링 역시 반드시 이 이름으로 지정해야 합니다.
 
             'title': 'Coinone Admin',
@@ -654,29 +654,6 @@ var customSubPage = {
         },
 
 
-
-    '구 포트폴리오':
-        {
-
-            'show': true,
-            'name': 'old',
-
-            'title': 'Old Portfolio',
-            'desc': '과거 포트폴리오 (반전매력?!)',
-            'client': 'ME!',
-            'role': 'UI Development & Design',
-            'percent': '(100%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 & 웹디자인 | 구축',
-            'detailInfo' : [
-                '개인 포트폴리오'
-            ],
-
-            'link': true,
-        },
-
-
-
     'SBI 저축은행':
         {
 
@@ -695,27 +672,6 @@ var customSubPage = {
             ],
 
             'link': false,
-        },
-
-
-    'ICON 초기 랜딩페이지':
-        {
-
-            'show': true,
-            'name': 'icon',
-
-            'title': 'ICON LANDING',
-            'desc': 'ICON 랜딩 페이지 (반응형)',
-            'client': 'ICON Fondation',
-            'role': 'UI Development',
-            'percent': '(100%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 | 구축',
-            'detailInfo' : [
-                ''
-            ],
-
-            'link': true,
         },
 
 
