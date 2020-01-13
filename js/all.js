@@ -59,7 +59,7 @@ $(function(){
     // Footer 생성 함수
     function footerMaker(){
 
-        var updateDay = 'June 3rd';
+        var updateDay = 'January 1rd';
 
         var html = '';
 
