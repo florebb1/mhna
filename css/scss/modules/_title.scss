@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+
+/*
+*   title for section, aricle
+*/
+
+    
+.title_line {
+        position: absolute;
+        top: -3.5em;
+        left: 50%;
+        display: block;
+        content: '';
+        width: 1px;
+        height: 5.5em;
+        background-color: #e3e1e1;
+        transition: background-color 2s;
+    
+    &.on {
+        background-color: #67ceeb;
+    }
+}
+
+
+.title {
+    display: table;
+    position: relative;
+    width: auto;
+    color: $color-main;
+    z-index: 1;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    transition: font-size .5s;
+    
+    &[data-ani] {
+         color: #e3e1e1;
+    }
+    
+  /*  &.on {
+        top: -10px;
+    }*/
+    
+    
+    &:before {
+        overflow: hidden;
+        position: absolute;
+        width: 0;
+        color: $color-main;
+        content: attr(data-ani);
+        transition: width .55s;
+    }
+    
+    &.on:before {
+        width: 100%;
+        text-align: center;
+        transition: width .55s;
+    }
+}
+
+
+.title_sm {
+    display: block;
+    position: relative;
+    z-index: 1;
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #aaa;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: font-size .5s, opacity .5s;
+    
+    &[data-ani] {
+        opacity: 0;
+    }
+    &.on {
+         opacity: 1;
+         transition: opacity .5s;
+    }
+    
+}
+
+
+
+
+//////////////////
+// !미디어 쿼리! //
+/////////////////
+
+
+@include pc-md {     // pc-md : 1601px~
+    .article_hello,
+    .article_work{
+        
+        .title {
+            font-size: 110px;
+        }
+        
+        .title_sm {
+            font-size: 13px;
+        }
+        
+        .hello_text {
+            font-size: 22px;
+        }
+        
+        .more_link {
+            font-size: 21px;
+        }
+        
+        .icon_circle {
+            font-size: 20px;
+        }
+    } 
+    
+} 
+
+// =============================================
+
+@include pc-sm {     // pc-sm : 1201px ~ 
+    .article_hello,
+    .article_work {
+        
+        
+        .title  {
+            font-size: 94px;
+        }
+        
+        .title_sm {
+            font-size: 13px;
+        }
+        
+        .hello_text {
+            font-size: 20px;
+        }
+        
+        .more_link {
+            font-size: 19px;
+        }
+        
+        .icon_circle {
+            font-size: 18px;
+        }
+    } 
+    
+}
+
+// =============================================
+
+@include tablet {     // tablet : 641px~
+    .article_hello,
+    .article_work {
+        
+        .title {
+            font-size: 80px;
+        }
+        
+        .title_sm {
+            font-size: 12px;
+        }
+        
+        .hello_text {
+            font-size: 18px;
+        }
+        
+        .more_link {
+            font-size: 17px;
+        }
+        
+        .icon_circle {
+            font-size: 16px;
+        }
+    } 
+    
+} 
+
+// =============================================
+
+@include mo-lg {     // mob-lg : ~540px
+    .article_hello,
+    .article_work {
+
+        .title_line {
+            top: -2em;
+            height: 3.6em;
+    }
+        .title  {
+            font-size: 65px;
+        }
+        
+        .title_sm {
+            font-size: 10px;
+        }
+        
+        .hello_text {
+            margin: 2.5em 0em;
+            font-size: 14px;
+            text-align: left;
+        }
+        
+        .more_link {
+            font-size: 12px;
+        }
+        
+        .icon_circle {
+            font-size: 10px;
+        }
+    } 
+    
+}
+
+// =============================================

@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+
+/*
+*   article_hello
+*/
+
+
+////////////////
+// hello 부분 //
+///////////////
+
+
+.article_hello {
+    z-index: 1; //푸터보다 위에 있어야 함
+    position: relative;
+    width: 100%;
+    min-height: 850px;
+    max-height: 100%;
+    height: 100vh;
+    background-color: $color-wrap;
+    
+    .inner {
+        transition: margin .5s;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: auto;
+        margin-top: -9em;
+    }
+    
+    .hello_text {
+        @include font-noto;
+        transition: margin .5s, font-size .5s;
+        margin: 2.5em 0 1em;
+        padding: 0 3.5em;
+        font-family: 'LotteMartDream', sans-serif;
+        text-align: center;
+        font-weight: 300;
+        color: #3f3f3f;
+        letter-spacing: 0.025rem;
+        line-height: 1.6em;
+        word-break: keep-all;
+    }
+    
+    .more {
+            @include display-flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin-top: 3em;
+        
+            &:before {
+                display: block;
+                position: absolute;
+                top: -30px;
+                left: 50%;
+                width: 4em;
+                height: 1px;
+                transform: translateX(-50%);
+                background-color: #888;
+                content: '';
+            }
+        
+        .more_link {
+            @include display-flex;
+            align-items: center;
+            position: relative;
+            @include font-noto;
+            letter-spacing: 0.12rem;
+            color: #656565;
+            
+            .more_link_text {
+                position: relative;
+                padding: 0 4px;
+                
+                &:after {
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  bottom: 0;
+                  right: 0;
+                  margin: auto;
+                  width: 100%;
+                  height: 1px;
+                  content: '.';
+                  color: transparent;
+                  background-color: #e5e5e5;
+                  opacity: 0;
+                  z-index: -1;
+                  transition: height .5s, opacity .5s;
+                }
+            }
+
+
+            .icon_circle {
+                @include icon-circle;
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                
+                &:before {
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    content: '';
+                    width: 44%;
+                    height: 44%;
+                    transform: translateX(-50%) translateY(-50%);
+                    background-image: url(../images/ico_move.svg);
+                    background-size: cover;
+                    //@include ani-moveToRight(infinite);
+                }
+
+            }
+            
+            
+            &:hover .more_link_text:after {
+              opacity: 1;
+              height: 100%;
+              transition: height .5s, opacity .5s;
+            }
+            
+            &:hover .icon_circle {
+                cursor: pointer; 
+                @include ani-bounce;
+            }
+            
+        }
+    }
+    
+} //end of .article_hello
+
+
+
+//////////////////
+// !미디어 쿼리! //
+/////////////////
+
+
+@include pc-md {     // pc-md : 1601px~
+    .article_hello {
+        min-height: 840px;
+        
+        .inner {
+            font-size: 29px;
+        }
+        
+        .hello_text {
+            font-size: 22px;
+        }
+        
+        .more .more_link {
+            font-size: 21px;
+        }
+        
+        .icon_circle {
+            font-size: 20px;
+        }
+    } 
+    
+} 
+
+// =============================================
+
+@include pc-sm {     // pc-sm : 1201px ~ 
+    .article_hello {
+        
+        .inner {
+            font-size: 26px;
+        }
+        
+        .hello_text {
+            font-size: 20px;
+        }
+        
+        .more .more_link {
+            font-size: 19px;
+        }
+        
+        .icon_circle {
+            font-size: 18px;
+        }
+    } 
+    
+}
+
+// =============================================
+
+@include tablet {     // tablet : 641px~
+    .article_hello {
+        
+        .inner {
+            margin-top: -10em;
+            font-size: 24px;
+        }
+        
+        .hello_text {
+            font-size: 18px;
+        }
+        
+        .more .more_link {
+            font-size: 17px;
+        }
+        
+        .icon_circle {
+            font-size: 16px;
+        }
+    }
+    
+}
+
+// =============================================
+
+@include mo-lg { 
+    .article_hello {
+        
+        .inner {
+            margin-top: -12em;
+            font-size: 22px;
+        }
+        
+        .hello_text {
+            margin: 3.5em 0 0 0.6em;
+            font-size: 15px;
+            text-align: left;
+        }
+        
+        .more .more_link {
+            font-size: 13px;
+            display: table;
+                        
+            .more_link_text:after {
+              opacity: 1;
+              height: 100%;
+            }
+            
+            .icon_circle {
+                display: block;
+                margin: 1.5em auto 0;
+                font-size: 12px;
+            }
+        }
+
+    } 
+    
+}
+
+// =============================================
+
+@include mo-sm {     
+    .article_hello {
+        
+        .inner {
+            margin-top: -14em;
+            font-size: 20px;
+        }
+        
+        .hello_text {
+            font-size: 14px;
+        }
+        
+        .more .more_link {
+            padding: 0;
+            font-size: 12px;
+            
+        }
+
+    } 
+    
+}
+
+// =============================================

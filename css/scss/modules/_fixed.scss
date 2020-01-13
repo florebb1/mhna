@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+/*
+*   fixed (logo, menu)
+*/
+
+.header {
+    z-index: 300;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+
+.header .fixed {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    max-width: 1920px;
+    margin: 0 auto;
+    
+    .logo {
+        cursor: pointer;
+        opacity: .7;
+        z-index: 300;
+        position: absolute;
+        top: 20px;
+        left: 16px;
+        width: 40px;
+        height: 40px;
+        transition: width .5s, height .5s, top .5s, left .5s, opacity .3s;
+        
+        &.onTop {
+            opacity: 0;
+        }
+
+        &:hover {
+            opacity: 1;
+            transition: opacity .3s;
+        }
+    }
+    
+    
+    $burgerWidth: 32px;
+    $burgerHeight: 20px;
+    $burgerLineSize: 2px;
+    $burgerLineColor: #777;
+    $burgerTranslate: ($burgerHeight - $burgerLineSize) / 2;
+    $burgerBounce: cubic-bezier(.87,-.50,.19,1.50);
+
+
+    .menu {
+        z-index: 600;
+        position: absolute;
+        width: auto;
+        height: auto;
+        top: 46px;
+        right: 36px;
+        cursor: pointer;
+        
+
+        .menu_burger {
+            opacity: .7;
+            position: absolute;
+            width: $burgerWidth;
+            height: $burgerHeight;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: transform 750ms ease-in-out, width .5s, height .5s, top .5s, left .5s, opacity .3s;
+            
+            &:focus {
+                outline: 0;
+            }
+            &:hover {
+                opacity: 1;
+                transition: opacity .3s;
+            }
+
+            .line {
+                position: absolute;
+                right: 0;
+                background-color: $burgerLineColor;
+                height: $burgerLineSize;
+                width: 80%;
+                pointer-events: none;
+                transition: transform .35s ease-in-out, background-color .2s;
+
+            }
+
+            .line_01 {
+                top: 0;
+            }
+
+            .line_02 {
+                width: 100%;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+
+            .line_02:before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: $burgerLineSize;
+                background-color: $burgerLineColor;
+                transition: transform .35s ease-in-out, background-color .2s;
+            }
+
+            .line_03 {
+                bottom: 0;
+            }
+
+
+        }
+        
+        &.onTop .line,
+        &.onTop .line_02:before, {
+            background-color: rgba(242, 234, 234, 0.9);
+        }
+
+    } //end of .menu
+    
+
+
+    .menu.open .menu_burger {
+
+        .line_01 {
+            opacity: 0;
+            transform: translate3d(-2*$burgerTranslate,0,0);
+            transition: all .35s ease-in-out;
+        }
+
+        .line_02 {
+            transform: rotate(45deg);
+            transition: transform .35s ease-in-out;
+        }
+
+        .line_02:before {
+            transform: rotate(-90deg);
+            transition: transform .35s ease-in-out;
+        }
+
+        .line_03 {
+            opacity: 0;
+            transform: translate3d(2*$burgerTranslate,0,0);
+            transition: all .35s ease-in-out;     
+        }
+        
+        &:focus {
+            outline: 0;
+        }
+
+    }
+
+
+}
+
+
+
+
+
+//////////////////
+// !미디어 쿼리! //
+/////////////////
+
+
+@include pc-md {
+   .header .fixed {
+        
+        .logo {
+            left: 18px;
+            width: 46px;
+            height: 46px;
+        }
+       
+       $burgerWidth: 38px;
+       $burgerHeight: 24px;
+       
+       .menu {
+           top: 42px;
+           right: 36px;
+            
+            .menu_burger {
+                width: $burgerWidth;
+                height: $burgerHeight;
+            }
+       }
+    }
+}
+
+// =============================================
+
+
+@include pc-sm {
+   .header .fixed {
+        
+        .logo {
+            width: 42px;
+            height: 42px;
+        }
+       
+       $burgerWidth: 36px;
+       $burgerHeight: 22px;
+       
+       .menu {
+           top: 38px;
+           right: 38px;
+            
+            .menu_burger {
+                width: $burgerWidth;
+                height: $burgerHeight;
+            }
+       }
+    }
+}
+
+// =============================================
+
+
+
+// =============================================
+
+
+@include tablet {
+   .header .fixed {
+        
+        .logo {
+            left: 10px;
+        }
+       
+       $burgerWidth: 30px;
+       $burgerHeight: 20px;
+       
+       .menu {
+           top: 42px;
+           right: 26px;
+            
+            .menu_burger {
+                width: $burgerWidth;
+                height: $burgerHeight;
+            }
+       }
+    }
+}
+
+// =============================================
+
+
+
+@include mo-lg {
+    
+    .header .fixed {
+        
+        .logo {
+            top: 14px;
+            left: 14px;
+            width: 30px;
+            height: 30px;
+        }
+        
+        $burgerWidth: 26px;
+        $burgerHeight: 18px;
+
+        .menu {
+            top: 30px;
+            right: 28px;
+            
+            .menu_burger {
+                width: $burgerWidth;
+                height: $burgerHeight;
+                right: 10px;
+            }
+        }
+    }
+    
+}
+
+// =============================================
+

@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+/*  
+*   COMMON STYLE
+*/
+
+.no_scroll { 
+    overflow: hidden;
+}
+
+
+.text_indent { 
+    text-indent: -9999px; 
+}
+
+.text_hide { 
+    position: absolute; left: -999em; 
+}
+
+
+.clearfix {
+    *zoom:1;
+}
+
+.clearfix:after {
+    display: block; 
+    content: ''; 
+    clear: both;
+}
+
+.ly_mt_sm {
+    display: block;
+    margin-top: 1em;
+}
+.ly_mt_md {
+    display: block;
+    margin-top: 2em;
+}
+.ly_mt_lg {
+    display: block;
+    margin-top: 3em;
+}
+
+.br_m {display: none;}
+.br_pc {display: block;}
+
+@media screen and (max-width:640px) {
+    .br_m {display: block !important;}
+    .br_pc {display: none !important;}
+    .text_hide_m {display: none !important;}
+}
+
+.wrap {z-index: 1; position: relative;background-color: #fafafa;}
+.inner {position: relative;}
+
+.btn_effect:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background-color: #fff;
+    opacity: 0;
+    transition: height .5s, opacity .5s;
+}
+
+.btn_effect:hover span {
+    color: #222;
+    transition: color .5s;
+}
+.btn_effect:hover:before {
+    opacity: 1;
+    height: 100%;
+    transition: height .5s, opacity .5s;
+}
+.btn_effect:hover:after {
+    background-image: url(../images/ico_link_dark.svg) !important;
+    transition: background-image .5s;
+}
+
+.ani_elem {
+    opacity: 0;
+}
+
+.item_link {
+    cursor: default;
+}
+
+::-moz-selection { 
+    //color: red;
+    background-color: #ffecaf;
+}
+
+::selection {
+    //color: red;
+    background-color: #ffecaf;
+}
+//end of _common.scss

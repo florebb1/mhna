@@ -1,0 +1,553 @@
+@charset "utf-8";
+
+/*
+*   article about
+*/
+
+
+////////////////
+// about 부분 //
+///////////////
+
+
+.article_about {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    max-height: 100%;
+    padding-top: 80px;
+    
+    .inner {
+        transition: margin .5s;
+        position: relative;
+        margin-top: 3em;
+        width: 100%;
+        height: auto;
+        font-size: 29px;
+    }
+    
+    .about_header {
+        .title {
+            position: relative;
+            top: 10px;
+            font-size: 100px;
+        }
+    }
+    
+    .about_wrap {
+        background-color: $color-bg;
+        padding-top: 3em;
+        padding-bottom: 9%;
+        margin-top: -2em;
+    }
+    
+    .about_motto {
+            @include display-flex;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            max-width: 1920px;
+            margin: 5em auto 4em;
+            font-size: 30px;
+        
+            .about_motto_text {
+                width: 32%;
+                padding-right: 3%;
+                text-align: right;
+                font-size: 100%;
+                line-height: 170%;
+                transition: font-size .5s;
+                
+            } //end of .about_motto_text
+        
+            .about_motto_image {
+                width: 63%;
+                margin-left: 2%;
+                max-width: 820px;
+                height: auto;
+                
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            } //end of .about_motto_image     
+    } //end of .about_motto
+    
+    .about_main{
+        z-index: 0;
+        @include display-flex;
+        position: relative;
+        max-width: 1920px;
+        margin: 0 auto;
+        text-align: center;
+        transition: padding .5s;
+        background-color: $color-bg;
+        
+       .about_link {
+            width: 18%;
+            margin: 0 0 0 17%;
+            //outline: 3px solid #5740d6;
+           
+            .social {
+                @include display-flex;
+                align-items: center;
+                justify-content: center;
+
+                .social_item {
+                    @include social-item(2.2em);
+                }
+            } //end of .social
+
+            .more {
+                position: relative;
+                margin-top: 60px;
+                font-size: 17px;
+                //outline:3px solid #463f6a;
+
+                &:before {
+                    display: block;
+                    position: absolute;
+                    top: -1.8em;
+                    left: 50%;
+                    width: 4em;
+                    height: 1px;
+                    transform: translateX(-50%);
+                    background-color: #9a9a9a;
+                    content: '';
+                }
+
+                .more_link {
+                    //@include display-flex;
+                    @include font-noto;
+                    position: relative;
+                    letter-spacing: 0.12rem;
+                    line-height: 156%;
+                    color: #747474;
+                    text-align: center;    
+                    justify-content: center;
+                    transition: font-size .5s;
+
+
+                    .icon_circle {
+                        @include icon-circle;
+                        display: inline-block;
+                        position: absolute !important;
+                        top: 7em;
+                        //margin-left: 0;
+                        font-size: 16px;
+
+                        
+                        left: 50%;
+                        margin-left: -1.5em;
+
+                        &:before {
+                            display: block;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            content: '';
+                            width: 44%;
+                            height: 44%;
+                            transform: translateX(-50%) translateY(-50%);
+                            background-image: url(../images/ico_move.svg);
+                            background-size: cover;
+                        }
+                        
+                    } //end of .icon_circle
+                    
+                    &:hover .icon_circle {
+                        cursor: pointer; 
+                        @include ani-bounce;
+                    }
+                    
+                } //end of .more_link
+                
+            } //end of .more
+
+        } //end of .about_link
+        
+        .about_text {
+            width: 63%;
+            max-width: 800px;
+            height: auto;
+            margin: 0 0 0 2%;
+            color: #333;
+            text-align: left;
+            font-size: 22px;
+            line-height: 190%;
+            transition: font-size .5s;
+
+            .about_text_para {
+                margin-bottom: 1.3em;
+                
+                .about_inspire {
+                    color: #666;
+                    font-weight: 300;
+                    letter-spacing: 0.06rem;
+                    font-size: 88%;
+                    
+                    &:before {
+                        display: inline-block;
+                        content: '';
+                        width: 1em;
+                    }
+                    
+                    &:hover {
+                        color: #43b8c9;
+                        text-decoration: underline;
+                    }
+                }
+
+                & > small {
+                    color: #555;
+                }
+            }
+            
+            .about_text_accent {
+                display: inline-block;
+                margin-bottom: 2em;
+                padding: 0 0.6em;
+                color: #fff;
+                font-weight: 400;
+                font-size: 70%;
+                letter-spacing: 0.04rem;
+                text-transform: uppercase;
+                background-color: #78d8e6;
+            }
+        } //end of .about_text
+        
+    } //end of .about_main
+    
+
+}
+
+
+
+
+
+//////////////////
+// !미디어 쿼리! //
+/////////////////
+
+
+@include pc-md {     // pc-md : 1601px~
+
+} 
+
+// =============================================
+
+@include pc-sm {     
+
+    .article_about {
+    
+    .inner {
+        font-size: 26px;
+    }
+    
+    .about_header {
+        .title {
+            font-size: 90px;
+        }
+    }
+    
+    .about_wrap {
+        font-size: 16px;
+        margin-top: -3em;
+    }
+    
+    .about_motto {
+            font-size: 28px;
+        
+            .about_motto_text { //32%
+                width: 29%;
+                padding-right: 3%;
+                
+            } 
+        
+            .about_motto_image {
+                
+                img {
+                    display: block;
+                    width: 90%;
+                }
+            }    
+    } //end of .about_motto
+    
+    .about_main{
+        
+       .about_link { //32%
+            width: 17%;
+            margin: 0 0 0 15%;
+           
+            .social {
+                .social_item {
+                    width: 2em;
+                    height: 2em;
+                }
+            }
+
+            .more {
+                font-size: 16px;
+                
+                .more_link {
+
+                    .icon_circle {
+                        top: 96px;
+                        font-size: 11px;
+                        //outline: 3px solid green;
+                        
+                        left: 50%;
+                        margin-left: -1.5em;
+                    }
+                    
+                } 
+                
+            } 
+
+        } //end of .about_link
+        
+        .about_text { //68%
+            width: 62%;
+            margin: 0 0 0 2%;
+            padding: 0 4% 0 0;
+            font-size: 19px;
+
+        } //end of .about_text
+        
+    } //end of .about_main
+    
+}
+    
+} 
+
+// =============================================
+
+@include tablet {     // tablet : 641px~
+
+.article_about {
+    //padding-top: 80px;
+    
+    .inner {
+        font-size: 24px;
+    }
+    
+    .about_header {
+        .title {
+            font-size: 76px;
+        }
+    }
+    
+    
+    .about_wrap {
+        font-size: 14px;
+        margin-top: -3.5em;
+    }
+    
+    .about_motto {
+            font-size: 21px;
+        
+            .about_motto_text {
+                width: 25%;
+                padding-right: 5%;
+                
+            } 
+        
+            .about_motto_image {
+                
+                img {
+                    display: block;
+                    width: 90%;
+                }
+            }    
+    } //end of .about_motto
+    
+    .about_main{
+        
+       .about_link {
+            width: 25%;
+            margin: 0 0 0 5%;
+           
+            .social {
+                .social_item {
+                    width: 1.8em;
+                    height: 1.8em;
+                }
+            }
+
+            .more {
+                font-size: 13px;
+                
+                .more_link {
+                    letter-spacing: 0.06rem;
+
+                    .icon_circle {
+                        top: 7.5em;
+                        font-size: 11px;
+                        //outline: 3px solid green;
+                    }
+                    
+                } 
+                
+            } 
+
+        } //end of .about_link
+        
+        .about_text {
+            width: 64%;
+            margin: 0 0 0 2%;
+            padding: 0 4% 0 0;
+            font-size: 16px;
+
+        } //end of .about_text
+        
+    } //end of .about_main
+    
+}
+    
+}
+
+// =============================================
+
+@include mo-lg { 
+
+.article_about {
+    
+    .inner {
+        font-size: 22px;
+    }
+    
+    .about_header {
+        .title {
+            font-size: 60px;
+        }
+    }
+    
+    .about_wrap {
+        font-size: 14px;
+        margin-top: -3em;
+        padding-top: 2em;
+    }
+    
+    .about_motto {
+            display: block;
+            font-size: 20px;
+        
+            .about_motto_text { 
+                width: 100%;
+                padding: 0;
+                text-align: center;
+                
+            } 
+        
+            .about_motto_image {
+                display: block;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                
+                img {
+                    display: block;
+                    width: 78%;
+                    margin: 40px auto 0;
+                }
+            }    
+    } //end of .about_motto
+    
+    .about_main{
+        
+       .about_link {
+           display: none;
+
+        } //end of .about_link
+        
+        .about_text { 
+            width: 78%;
+            margin: 0 auto 8em;
+            padding: 0em;
+            font-size: 16px;
+            line-height: 170%;
+            
+            .about_text_para {
+                margin-bottom: 1em;
+                
+                .about_inspire {
+                    display: block;
+                    margin-bottom: 1em;
+                }
+            }
+
+        } //end of .about_text
+        
+    } //end of .about_main
+    
+}
+    
+    
+}
+
+// =============================================
+
+@include mo-sm {     
+
+    
+.article_about {
+    
+    .inner {
+        font-size: 20px;
+    }
+    
+    .about_header {
+        .title {
+            font-size: 56px;
+        }
+    }
+    
+    .about_wrap {
+    }
+    
+    .about_motto {
+            font-size: 19px;
+        
+            .about_motto_text { 
+                
+            } 
+        
+            .about_motto_image {
+                
+                img {
+                    width: 73%;
+                }
+            }    
+    } //end of .about_motto
+    
+    .about_main{
+        
+       .about_link {
+          
+
+        } //end of .about_link
+        
+        .about_text { 
+            width: 73%;
+            font-size: 15px;
+            line-height: 170%;
+            margin-bottom: 8em;
+            
+            .about_text_para {
+                margin-bottom: 1em;
+
+                & > small {
+                    display: block;
+                }
+            }
+
+        } //end of .about_text
+        
+    } //end of .about_main
+    
+}
+    
+    
+}
+
+// =============================================
