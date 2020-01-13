@@ -68,51 +68,36 @@ $(function(){
         html += ' <h2 class="title footer_title">Let&acute;s start right Now!</h2> ';
         html += ' <p class="footer_text">작업 준비 완료됐습니다. 편하실 때 연락 주세요!</p> ';
         html += ' <address class="footer_address"> ';
-            html += ' <a href="mailto:mhp3nd25@gmail.com" class="footer_link link_mail"> ';
-                html += ' <span class="icon_circle"></span> ';
-                html += ' <span class="footer_link_text"></span> ';
-            html += ' </a> ';
-            html += ' <a href="tel:01071074084" class="footer_link link_phone"> ';
-                html += ' <span class="icon_circle"></span> ';
-                html += ' <span class="footer_link_text"></span> ';
-            html += ' </a> ';
+        html += ' <a href="mailto:mhp3nd25@gmail.com" class="footer_link link_mail"> ';
+        html += ' <span class="icon_circle"></span> ';
+        html += ' <span class="footer_link_text"></span> ';
+        html += ' </a> ';
+        html += ' <a href="tel:01071074084" class="footer_link link_phone"> ';
+        html += ' <span class="icon_circle"></span> ';
+        html += ' <span class="footer_link_text"></span> ';
+        html += ' </a> ';
         html += ' </address> ';
         html += ' <div class="footer_bottom"> ';
-            html += ' <ul class="social"> ';
-                html += ' <li class="social_item social_blog"><a href="http://blog.naver.com/phlox__" target="_blank">blog</a></li> ';
-                html += ' <li class="social_item social_codepen"><a href="https://codepen.io/nykim_/" target="_blank">codepen</a></li> ';
-                html += ' <li class="social_item social_github"><a href="https://github.com/AnnYKim" target="_blank">github</a></li> ';
-            html += ' </ul> ';
-            html += ' <p class="update">Last Updated On '+updateDay+', 2020</p> ';
-            html += ' <p class="copyright">&copy; 2020 MINHO NA</p> ';
+        html += ' <ul class="social"> ';
+        html += ' <li class="social_item social_blog"><a href="http://blog.naver.com/phlox__" target="_blank">blog</a></li> ';
+        html += ' <li class="social_item social_codepen"><a href="https://codepen.io/nykim_/" target="_blank">codepen</a></li> ';
+        html += ' <li class="social_item social_github"><a href="https://github.com/AnnYKim" target="_blank">github</a></li> ';
+        html += ' </ul> ';
+        html += ' <p class="update">Last Updated On '+updateDay+', 2020</p> ';
+        html += ' <p class="copyright">&copy; 2020 MINHO NA</p> ';
         html += ' </div> ';
 
         $(".footer").append(html);
 
     }
 
-
-
-
     $(window).on('load',function(){
-
-
         setTimeout(function(){
             removeLoading();
         },100);
-
-
         gnbMaker();
         footerMaker();
-
     });
-
-
-
-
-    console.log('안녕하세요123! :D');
-
-
 });
 $(function(){
 
