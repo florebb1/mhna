@@ -46,7 +46,7 @@ $(function(){
                     html += ' <span class="contact_heading">PHONE</span>';
                     html += ' <span class="contact_info">82.10.7107.4084</span> ';
                 html += ' </a> ';
-                html += ' <a href="https://github.com/AnnYKim/" class="contact_link"> ';
+                html += ' <a href="https://github.com/florebb1/" class="contact_link"> ';
                     html += ' <span class="contact_heading">GITHUB</span>  ';
                     html += ' <span class="contact_info">florebb1</span> ';
                 html += ' </a> ';
@@ -78,11 +78,11 @@ $(function(){
         html += ' </a> ';
         html += ' </address> ';
         html += ' <div class="footer_bottom"> ';
-        // html += ' <ul class="social"> ';
-        // html += ' <li class="social_item social_blog"><a href="http://blog.naver.com/phlox__" target="_blank">blog</a></li> ';
-        // html += ' <li class="social_item social_codepen"><a href="https://codepen.io/nykim_/" target="_blank">codepen</a></li> ';
-        // html += ' <li class="social_item social_github"><a href="https://github.com/AnnYKim" target="_blank">github</a></li> ';
-        // html += ' </ul> ';
+        html += ' <ul class="social"> ';
+        html += ' <li class="social_item social_blog"><a href="http://blog.naver.com/phlox__" target="_blank">blog</a></li> ';
+        html += ' <li class="social_item social_codepen"><a href="https://codepen.io/nykim_/" target="_blank">codepen</a></li> ';
+        html += ' <li class="social_item social_github"><a href="https://github.com/AnnYKim" target="_blank">github</a></li> ';
+        html += ' </ul> ';
         html += ' <p class="update">Last Updated On '+updateDay+', 2020</p> ';
         html += ' <p class="copyright">&copy; 2020 MINHO NA</p> ';
         html += ' </div> ';
