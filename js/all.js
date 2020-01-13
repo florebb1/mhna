@@ -33,7 +33,7 @@ $(function(){
         html += ' <li class="menu_item menu_about"><a href="../about.html">ABOUT.</a></li> ';
         html += ' </ul> ';
         html += ' <div class="contact"> ';
-        html += ' <a href="mailto:nykim@nykim.net" class="contact_link">  ';
+        html += ' <a href="mailto:mhp3nd25@gmail.com" class="contact_link">  ';
         html += ' <span class="contact_heading">MAIL</span>    ';
         html += ' <span class="contact_info">mhp3nd25@gmail.com</span> ';
         html += ' </a> ';
