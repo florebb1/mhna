@@ -9,7 +9,7 @@ $(function(){
     // 전역에서 사용할 요소 초기화
 
     $title_text = $(".title_text_slide");
-    visualTxt = ['unique', 'brilliant', 'notableeee', 'amazing', 'splendid', 'unlimited']; //비주얼 타이틀에 쓰일 문구
+    visualTxt = ['Admixing', 'Amusement', 'Amazing', 'Cooperament', 'Unlimited']; //비주얼 타이틀에 쓰일 문구
     function init(){
         tl_visual = new TimelineLite();
     }
@@ -86,7 +86,7 @@ $(function(){
           });
 
         $title_text.children().each(function(){ //N을 찾아서 i 태그로 감싸기
-            if($(this).text().indexOf('N')>-1 || $(this).text().indexOf('n')>-1){
+            if($(this).text().indexOf('M')>-1 || $(this).text().indexOf('m')>-1){
                 $(this).wrapInner('<i></i>');
             }
         });
