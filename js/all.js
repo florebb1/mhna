@@ -34,21 +34,21 @@ $(function(){
             html += ' <h2 class="text_hide">Navigation</h2> ';
             html += ' <ul class="nav"> ';
                 html += ' <li class="menu_item"><a href="/">HOME.</a></li> ';
-                html += ' <li class="menu_item menu_work"><a href="/#work">WORK.</a></li> ';
+                html += ' <li class="menu_item menu_work"><a href="../#work">WORK.</a></li> ';
                 html += ' <li class="menu_item menu_about"><a href="../about.html">ABOUT.</a></li> ';
             html += ' </ul> ';
             html += ' <div class="contact"> ';
                 html += ' <a href="mailto:nykim@nykim.net" class="contact_link">  ';
                     html += ' <span class="contact_heading">MAIL</span>    ';
-                    html += ' <span class="contact_info">nykim@nykim.net</span> ';
+                    html += ' <span class="contact_info">mhp3nd25@gmail.com</span> ';
                 html += ' </a> ';
-                html += ' <a href="tel:01027285936" class="contact_link"> ';
+                html += ' <a href="tel:01071074084" class="contact_link"> ';
                     html += ' <span class="contact_heading">PHONE</span>';
-                    html += ' <span class="contact_info">82.10.2728.5936</span> ';
+                    html += ' <span class="contact_info">82.10.7107.4084</span> ';
                 html += ' </a> ';
                 html += ' <a href="https://github.com/AnnYKim/" class="contact_link"> ';
                     html += ' <span class="contact_heading">GITHUB</span>  ';
-                    html += ' <span class="contact_info">AnnYKim</span> ';
+                    html += ' <span class="contact_info">florebb1</span> ';
                 html += ' </a> ';
             html += ' </div> ';
         html += ' </nav> ';
@@ -68,11 +68,11 @@ $(function(){
         html += ' <h2 class="title footer_title">Let&acute;s start right Now!</h2> ';
         html += ' <p class="footer_text">작업 준비 완료됐습니다. 편하실 때 연락 주세요!</p> ';
         html += ' <address class="footer_address"> ';
-            html += ' <a href="mailto:nykim@nykim.net" class="footer_link link_mail"> ';
+            html += ' <a href="mailto:mhp3nd25@gmail.com" class="footer_link link_mail"> ';
                 html += ' <span class="icon_circle"></span> ';
                 html += ' <span class="footer_link_text"></span> ';
             html += ' </a> ';
-            html += ' <a href="tel:01027285936" class="footer_link link_phone"> ';
+            html += ' <a href="tel:01071074084" class="footer_link link_phone"> ';
                 html += ' <span class="icon_circle"></span> ';
                 html += ' <span class="footer_link_text"></span> ';
             html += ' </a> ';
@@ -456,7 +456,6 @@ $(function(){
    [ sub.js ]
 
    2018.05.30
-   nykim@nykim.net
 
    메인페이지와 서브페이지 내용을 자동으로 생성합니다.
    이제 jQuery의 한계를 느낀드아앍@#$!@
