@@ -478,7 +478,7 @@ var customSubPage = {
     'AR GEAR':
         {
 
-            'show': false,
+            'show': true,
             'name': 'arGear',
 
             'title': 'AR GEAR',
