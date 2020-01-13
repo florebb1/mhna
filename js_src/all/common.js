@@ -103,7 +103,7 @@ $(function(){
 
 
         gnbMaker();
-        footerMaker();
+        // footerMaker();
 
     });
 
