@@ -9,7 +9,7 @@ $(function(){
     // 전역에서 사용할 요소 초기화
 
     $title_text = $(".title_text_slide");
-    visualTxt = ['Admixing', 'Amusement', 'Amazing', 'Cooperament', 'Unlimited']; //비주얼 타이틀에 쓰일 문구
+    visualTxt = ['Admixing', 'Amuse', 'Amazing', 'Cooperament', 'Unlimited']; //비주얼 타이틀에 쓰일 문구
     function init(){
         tl_visual = new TimelineLite();
     }
