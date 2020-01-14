@@ -451,7 +451,7 @@ $(function(){
 var customSubPage = {
 
 
-    '코인원':
+    '스마트팩토리':
         {
 
             'show': true, //메인화면에서 보일지 여부를 선택합니다.
