@@ -63,10 +63,6 @@ $(function(){
         html += ' <h2 class="title footer_title">Let&acute;s start right Now!</h2> ';
         html += ' <p class="footer_text">작업 준비 완료됐습니다. 편하실 때 연락 주세요!</p> ';
         html += ' <address class="footer_address"> ';
-        html += ' <a href="mailto:mhp3nd25@gmail.com" class="footer_link link_mail"> ';
-        html += ' <span class="icon_circle"></span> ';
-        html += ' <span class="footer_link_text"></span> ';
-        html += ' </a> ';
         html += ' <a href="tel:01071074084" class="footer_link link_phone"> ';
         html += ' <span class="icon_circle"></span> ';
         html += ' <span class="footer_link_text"></span> ';
