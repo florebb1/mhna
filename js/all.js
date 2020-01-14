@@ -65,11 +65,11 @@ $(function(){
         html += ' <address class="footer_address"> ';
         html += ' <a href="mailto:mhp3nd25@gmail.com" class="footer_link link_mail"> ';
         html += ' <span class="icon_circle"></span> ';
-        html += ' <span class="footer_link_text"></span> ';
+        html += ' <span class="footer_link_text" style="font-size:0.8rem;"></span> ';
         html += ' </a> ';
         html += ' <a href="tel:01071074084" class="footer_link link_phone"> ';
         html += ' <span class="icon_circle"></span> ';
-        html += ' <span class="footer_link_text"></span> ';
+        html += ' <span class="footer_link_text" style="font-size:0.8rem;"></span> ';
         html += ' </a> ';
         html += ' </address> ';
         html += ' <div class="footer_bottom"> ';
