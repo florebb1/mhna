@@ -786,9 +786,6 @@ function generateSubPage(){
 
     for (var i in customSubPage) {
 
-      console.log(pageName);
-      console.log(customSubPage[i].name);
-
         //name이 일치하는 경우 서브페이지를 그려냅니다.
         if(customSubPage[i].name === pageName){
 
