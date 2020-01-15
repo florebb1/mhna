@@ -494,7 +494,7 @@ var customSubPage = {
               '또, api는 java spring boot를 통하여 제작중, JPA 경험할 수 있었습니다. 또, 기획이 작업중 계속 바뀌면서 버전 관리의 중요성도 깨달았던 작업입니다.'
             ],
 
-            'link': true,
+            'link': false,
             // 'existLink': 'http://argear.io',
         }
 }
