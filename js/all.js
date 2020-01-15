@@ -482,7 +482,7 @@ var customSubPage = {
             'name': 'mooorr',
 
             'title': 'MOOORR',
-            'desc': 'mooorr SNS 서비스',
+            'desc': 'mooorr 서비스',
             'client': 'mooorr',
             'role': 'UI Development',
             'percent': '(100%)',
