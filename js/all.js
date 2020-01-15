@@ -471,7 +471,7 @@ var customSubPage = {
                 'bootstrap4를 활용하여 빠르게 클래스를 재사용할 수 있도록 했습니다.'
             ],
 
-            'link': false, //true = 외부링크 있음, flase = 서브페이지 있음
+            'link': false, //true = 외부링크 있음, false = 서브페이지 있음
         },
 
 
