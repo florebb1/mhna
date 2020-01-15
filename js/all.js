@@ -781,10 +781,13 @@ function generateSubPage(){
     var pageName = $(".wrap").data("sub").substring(5);
     var maxNum = subPageList.length;
 
-    console.log('pageName=', pageName);
-    console.log('maxNum=', maxNum);
+    // console.log('pageName=', pageName);
+    // console.log('maxNum=', maxNum);
 
     for (var i in customSubPage) {
+
+      console.log(pageName);
+      console.log(customSubPage[i].name);
 
         //name이 일치하는 경우 서브페이지를 그려냅니다.
         if(customSubPage[i].name === pageName){
