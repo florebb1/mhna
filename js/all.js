@@ -475,227 +475,32 @@ var customSubPage = {
         },
 
 
-    'AR GEAR':
+    'MOOORR':
         {
 
-            'show': false,
-            'name': 'arGear',
+            'show': true,
+            'name': 'mooorr',
 
-            'title': 'AR GEAR',
-            'desc': '랜딩 페이지 (풀반응형)',
-            'client': 'AR GEAR',
+            'title': 'MOOORR',
+            'desc': 'mooorr SNS 서비스',
+            'client': 'mooorr',
             'role': 'UI Development',
             'percent': '(100%)',
 
             'viewCode': true,
             'detailTitle': '웹퍼블리싱 | 구축',
             'detailInfo' : [
-                ''
+              'SNS 서비스와 이를 용이하게 관리할 수 있도록 돕는 관리자 플랫폼입니다. 가이드 시안이 거의 없었기에 단순 디자인만 보며 작업을 진행하여 많은 어려움이 있었습니다.<br/>',
+              '또, api는 java spring boot를 통하여 제작중, JPA 경험할 수 있었습니다. 또, 기획이 작업중 계속 바뀌면서 버전 관리의 중요성도 깨달았던 작업입니다.'
             ],
 
             'link': true,
             // 'existLink': 'http://argear.io',
-        },
+        }
 
 
 
-    '스테이지':
-        {
 
-            'show': false,
-            'name' : 'stayge',
-
-            'title': 'STAYGE One',
-            'desc': '랜딩 페이지 (풀반응형)',
-            'client': 'STAYGE',
-            'role': 'UI Development',
-            'percent': '(100%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 | 구축',
-            'detailInfo' : [
-                ''
-            ],
-
-            'link': true,
-            // 'existLink' : 'http://stayge.io/',
-        },
-
-
-    'ICOP':
-        {
-
-            'show': false,
-            'name': 'icop',
-
-            'title': 'ICO Platform',
-            'desc': '펀딩 플랫폼',
-            'client': 'ICON Foundation',
-            'role': 'UI Development & Design',
-            'percent': '(100% &middot; 90%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 & 웹디자인 | 구축',
-            'detailInfo' : [
-                'ICO를 용이하게 관리할 수 있도록 돕는 플랫폼입니다. 작업 기한이 촉박하여 디자이너의 투입 없이, 초기 레이아웃 구성과 퍼블리싱을 동시에 진행했습니다. 가이드 시안이 전혀 없었기에 UID를 보며 마크업과 UI 작업을 빠르게 끝내고 개발단에 전달하는 것을 목표로 작업했습니다.<br/>',
-                '또, React 기반의 작업이여서 컴포넌트 등을 경험할 수 있었습니다. 또, 여러 사람과 작업하면서 버전 관리의 중요성도 깨달았던 작업입니다. style 브랜치를 두고 dev 브랜치와 병합해 나가면서 개발이 완료되는 과정을 함께할 수 있었습니다.'
-            ],
-
-            'link': false,
-        },
-
-
-    '파트너스 협약식':
-        {
-
-            'show': false,
-            'name': 'partners',
-
-            'title': 'Presentation Page',
-            'desc': '협약식 체결 화면',
-            'client': 'the loop',
-            'role': 'UI Development & Design',
-            'percent': '(100%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 | 구축',
-            'detailInfo' : [
-                '핀테크 랩 파트너스 협약식에 쓰일 view를 퍼블리싱 했습니다.'
-            ],
-
-            'link': true,
-        },
-
-
-    '실크로드':
-        {
-
-            'show': false,
-            'name': 'silkroad',
-
-            'title': 'silkroad',
-            'desc': '랜딩 페이지(풀반응형)',
-            'client': 'silkroad Foundation',
-            'role': 'UI Development',
-            'percent': '(100%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 | 구축',
-            'detailInfo' : [
-                ''
-            ],
-
-            'link': true,
-            'existLink' : 'http://silkroadfoundation.io/',
-        },
-
-
-    'Chain Sign':
-        {
-
-            'show': false,
-            'name': 'sign',
-
-            'title': 'Chain SIGN',
-            'desc': '랜딩 페이지(풀반응형)',
-            'client': 'the loop',
-            'role': 'UI Development',
-            'percent': '(100%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 | 구축',
-            'detailInfo' : [
-                ''
-            ],
-
-            'link': true,
-            'existLink' : 'http://chainsign.co.kr/',
-        },
-
-
-    '챙스타':
-        {
-
-            'show': false,
-            'name': 'changstarr',
-
-            'title': 'Lyrics for Changstarr',
-            'desc': 'Changstarr 가사 정보 페이지(웹, 모바일)',
-            'client': "D'Amusements",
-            'role': 'UI Development',
-            'percent': '(100%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 | 구축',
-            'detailInfo' : [
-                '앨범의 가사와 해당 가사에 담긴 내용을 보여주는 웹페이지입니다. 반응형이지만 모바일에서 더 나은 성능을 제공하기 위해, userAgent로 모바일 접속을 판단한 뒤 스타일을 분기해 적용시켰습니다.<br/>',
-                'CSS와 jQuery를 활용해 다양한 효과를 주어, 기존 가사 정보 페이지와 차별화가 느껴지도록 작업했습니다.',
-            ],
-
-            'link': false,
-
-        },
-
-
-    '3M HCA':
-        {
-
-            'show': false,
-            'name': 'hca',
-
-            'title': '3M HCA',
-            'desc': '3M 제품 사용자를 위한 플랫폼',
-            'client': '3M',
-            'role': 'UI Development',
-            'percent': '(50%)',
-            'viewCode': true,
-            'detailTitle': '웹퍼블리싱 | 구축, 유지보수',
-            'detailInfo' : [
-                '3M 제품 사용자를 위한 플랫폼 웹페이지입니다.<br/> 어드민 사이트와 엔드 유저 사이트 둘로 나뉘며, 엔드 유저용 사이트는 반응형으로 제작했습니다.<br/>',
-                '경력 퍼블리셔와 함께 작업을 진행하였고, 그 과정에서 CSS 작성법과 네이밍룰을 배울 수 있었습니다.<br/> 또, 필요한 내용을 요청하는 법, 주석을 남겨 파일을 원활하게 전달하는 법 등 함께 일하면서 필요한 기본 능력 등도 익힐 수 있었습니다.<br/>',
-                '유지보수 분량이 꽤 많았던 작업인데, 기존 CSS를 빠르게 읽고 고치는 방법과,<br/> 다른 CSS를 덮어쓰지 않도록 우선순위를 조정하는 방법 등도 숙지시켜준 즐거운 작업이었습니다.<br/>'
-            ],
-
-            'link': false,
-        },
-
-
-    'SBI 저축은행':
-        {
-
-            'show': false,
-            'name': 'sbi',
-
-            'title': 'SBI BANK',
-            'desc': 'SBI저축은행 하이브리드앱',
-            'client': 'SBI Bank',
-            'role': 'UI Development',
-            'percent': '(50%)',
-            'viewCode': false,
-            'detailTitle': '웹퍼블리싱 | 유지보수',
-            'detailInfo' : [
-                'SBI 저축은행의 앱에 추가로 들어갈 페이지를 만들어 전달드린 작업입니다.<br/> 유지보수 작업이라 쉽게 마쳤던 작업이지만, 다른 사람의 코드를 읽고 활용하는 방법을 배울 수 있었습니다.<br/> 이때 봐두었던 코드 덕분에, 나중에 웹뷰 페이지를 제작할 때 em 개념을 활용한 손쉬운 작업이 가능했습니다.'
-            ],
-
-            'link': false,
-        },
-
-
-    '3M VR 예약페이지':
-        {
-
-            'show': false,
-            'name': 'vr',
-
-            'title': '3M VR',
-            'desc': '가상현실 체험 예약 페이지 (웹, 모바일)',
-            'client': '3M',
-            'role': 'UI Development',
-            'percent': '(100%)',
-            'viewCode': true,
-            'detailTitle': '웹퍼블리싱 | 구축',
-            'detailInfo' : [
-                ''
-            ],
-
-            'link': true,
-        },
-
-    }
 
     var subPageList = [];
 
