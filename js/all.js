@@ -497,6 +497,7 @@ var customSubPage = {
             'link': true,
             // 'existLink': 'http://argear.io',
         }
+}
 
 
 
