@@ -715,7 +715,6 @@ function checkHasSubPage(){
             subPageList.push(customSubPage[i].name);
         }
     }
-    console.log(subPageList);
 
 }
 
