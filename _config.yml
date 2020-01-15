@@ -1,3 +1,2 @@
-jekyll build
-
-jekyll serve --livereload
+theme: jekyll-theme-cayman
+activate: livereload
