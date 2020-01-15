@@ -457,14 +457,14 @@ var customSubPage = {
             'show': true, //메인화면에서 보일지 여부를 선택합니다.
             'name': 'rtmes', //폴더 및 이미지의 이름입니다. CSS 스타일링 역시 반드시 이 이름으로 지정해야 합니다.
 
-            'title': 'RTMES Admin',
+            'title': 'RTMES Admin123',
             'desc': 'RTMES의 관리자 계정 페이지', //설명
             'client': 'RTMES', //클라이언트
             'role': 'Front-End', //역할
             'percent': '(100% &middot; 50%)', //기여도
             'viewCode': true, //true = 코드 링크 있음, false = 코드 링크 없음
 
-            'detailTitle': 'Web Page Front-end | 개발',
+            'detailTitle': 'Web Site Front-end | 개발',
             'detailInfo' : [
                 'RTMES의 어드민 유저를 위해 만든 관리자 페이지입니다.<br/> 디자이너의 시안 없이, 기획 문서만 있는 상태에서 프론트 개발을 진행하였고, 소요기간은 3일정도 걸린 작업입니다.<br/>',
                 '기획서를 보면서 바로 작업했기 때문에 제가 할 수 있는 범위가 넓어 즐겁게 작업할 수 있었습니다.<br/> 어드민 페이지이기 때문에 디자인 자체보다는 UX 측면을 중시하려 했고,<br/> 일부 요소들은 문구나 위치 선정에 있어 기획자와 의견을 물어가며 바꿔보기도 했습니다.<br/>',
