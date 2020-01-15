@@ -461,7 +461,7 @@ var customSubPage = {
             'desc': 'RTMES의 관리자 계정 페이지', //설명
             'client': 'RTMES', //클라이언트
             'role': 'Front-End', //역할
-            'percent': '(100% &middot; 100%)', //기여도
+            'percent': '(100% &middot; 40%)', //기여도
             'viewCode': true, //true = 코드 링크 있음, false = 코드 링크 없음
 
             'detailTitle': 'Web Site Front-end | 개발',
