@@ -800,7 +800,7 @@ function generateSubPage(){
                 html_hero+= '<div class="hero_center">';
 
                 if (customSubPage[i].viewCode === true) { //viewCode 프로퍼티가 true라면 링크 추가
-                     html_hero += '<a href="view_'+customSubPage[i].name+'/index.html" target="_blank" class="hero_link btn_effect"><span>VIEW CODE</span></a>';
+                     html_hero += '<a href="https://github.com/florebb1/'+customSubPage[i].name+'" target="_blank" class="hero_link btn_effect"><span>VIEW CODE</span></a>';
                      html_hero+= '<p class="hero_scroll">or just scroll down to see screenshots!</p>';
                 }else{
                     html_hero+= '<p class="hero_scroll">Scroll down to see screenshots!</p>';
@@ -871,7 +871,7 @@ function generateSubPage(){
             html_detailBottom += '<a href="work_'+getPrevHtmlName()+'.html" class="detail_btn prev"><span class="detail_btn_title">WORK #'+prevNum+'</span>Prev.</a>';
 
              if (customSubPage[i].viewCode === true){
-                 html_detailBottom += '<a href="view_'+customSubPage[i].name+'/index.html" target="_blank"  class="detail_link btn_effect"><span>view code</span></a>';
+                 html_detailBottom += '<a href="https://github.com/florebb1/'+customSubPage[i].name+'" target="_blank"  class="detail_link btn_effect"><span>view code</span></a>';
             }
 
 
