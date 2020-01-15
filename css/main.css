@@ -2873,13 +2873,13 @@ html, body {
   background-color: #111f6f
 }
 
-.icop .article_detail .detail_bottom .detail_link {
-  border-color: #5eede4;
-  color: #5eede4
+.mooorr .article_detail .detail_bottom .detail_link {
+  border-color: #ff4e00;
+  color: #ff4e00;
 }
 
-.icop .article_detail .detail_bottom .detail_link:before {
-  background-color: #5eede4
+.mooorr .article_detail .detail_bottom .detail_link:before {
+  background-color: #ff4e00;
 }
 
 .changstarr .article_detail .detail_bottom .detail_link {
