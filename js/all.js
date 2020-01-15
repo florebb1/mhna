@@ -457,7 +457,7 @@ var customSubPage = {
             'show': true, //메인화면에서 보일지 여부를 선택합니다.
             'name': 'rtmes', //폴더 및 이미지의 이름입니다. CSS 스타일링 역시 반드시 이 이름으로 지정해야 합니다.
 
-            'title': 'RTMES Admin123',
+            'title': 'RTMES Admin',
             'desc': 'RTMES의 관리자 계정 페이지', //설명
             'client': 'RTMES', //클라이언트
             'role': 'Front-End', //역할
