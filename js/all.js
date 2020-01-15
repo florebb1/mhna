@@ -715,6 +715,7 @@ function checkHasSubPage(){
             subPageList.push(customSubPage[i].name);
         }
     }
+    console.log(subPageList);
 
 }
 
@@ -790,9 +791,7 @@ function generateSubPage(){
         if(customSubPage[i].name === pageName){
 
             var num = subPageList.indexOf(pageName) + 1; //현재 페이지가 배열의 몇 번째인지 파악해 num에 대입합니다.
-console.log(num);
 
-            // --
             // hero 화면 생성
             var html_hero = '';
 
