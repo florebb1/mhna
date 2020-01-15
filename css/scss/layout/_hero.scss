@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #a2a2a2;
-    
+
     .inner {
         position: relative;
         width: 100%;
@@ -28,13 +28,13 @@
         box-sizing: border-box;
         //transition: padding .5s;
     }
-    
+
     .hero_title {
         position: relative;
         font-size: 80px;
         font-weight: 700;
         transition: font-size .5s;
-            
+
         .hero_title_sm { //featured work
             position: absolute;
             top: -6px;
@@ -46,7 +46,7 @@
             text-transform: uppercase;
             //transition: font-size .5s, top .5s;
         }
-        
+
         &:after {
             display: block;
             width: 100%;
@@ -56,12 +56,12 @@
             background-color: rgba(255,255,255,0.4);
         }
     } //end of .hero_title
-    
+
     .hero_top {
         @include display-flex;
         margin-top: 20px;
         transition: margni-top .5s;
-        
+
         .info_heading {
             margin-right: 5em;
             color: rgba(255,255,255,0.6);
@@ -69,7 +69,7 @@
             font-weight: 300;
             letter-spacing: 0.05rem;
             //transition: margin-right .5s;
-            
+
             .info_text {
                 @include font-noto;
                 margin-left: 0.5em;
@@ -78,27 +78,27 @@
                 font: 400;
                 letter-spacing: 0;
                 //transition: margin-left .5s, font-size .5s;
-                
+
                 .info_percentage {
                     padding-left: 6px;
                     font-size: 80%;
                     font-style: normal;
                 }
             }
-            
+
         } //end of .info_heading
-        
+
     } //end of .hero_top
-    
+
     .hero_center {
         margin-top: 4em;
         transition: margin-top .5s, font-size .5s;
-    
+
         .hero_link {
             @include btn-web;
             margin-bottom: 0.8em;
         } //end of .hero_link
-        
+
         .hero_scroll {
             color: rgba(255,255,255,0.8);
             font-weight: 300;
@@ -106,26 +106,26 @@
             letter-spacing: 0.07rem;
         } //end of .hero_scroll
     } //end of .hero_center
-    
+
     .hero_bottom {
         position: absolute;
         right: 9em;
         bottom: 5%;
         //transition: right .5s, bottom .5s;
-        
+
         .hero_page {
             display: inline-block;
         }
-        
+
         .page_current {
             letter-spacing: -0.06rem;
             font-size: 90%;
         }
-        
+
         .page_entire {
             font-weight: 300;
             font-size: 70%;
-            
+
             &:before {
                 display: inline-block;
                 padding: 0 2px 0 4px;
@@ -133,7 +133,7 @@
                 font-weight: 300;
             }
         }
-        
+
         .hash {
             display: inline-block;
             margin-right: 0.3em;
@@ -152,7 +152,7 @@
 
 @each $work, $color in $colorList {
     .#{$work} .hero {
-        background-image: url(../images/hero_#{$work}.jpg);
+        background-image: url(/images/hero_#{$work}.jpg);
     }
 }
 
@@ -175,15 +175,15 @@
 @include pc-md {     // pc-md : 1601px~
 
     .hero {
-        
+
         .hero_title { //hero title
             font-size: 88px;
 
             .hero_title_sm { //featured work
                 font-size: 14px;
-                
+
             }
-        } 
+        }
 
         .hero_top .info_heading { //client, role
             font-size: 16px;
@@ -191,42 +191,42 @@
             .info_text {
                 font-size: 20px;
             }
-        } 
+        }
 
         .hero_center { //view web page link
             font-size: 18px;
         }
 
         .hero_bottom {
-            
+
             .hero_page { //page number
                 font-size: 47px;
             }
-        } 
-        
+        }
+
     }
-    
+
 }
 
 // =============================================
 
-@include pc-sm {  
+@include pc-sm {
 
     .hero {
-        
+
         .inner {
             padding-left: 7em;
             padding-right: 7em;
         }
-        
+
         .hero_title {
             font-size: 78px;
 
             .hero_title_sm {
                 font-size: 13px;
-                
+
             }
-        } 
+        }
 
         .hero_top .info_heading {
             font-size: 14px;
@@ -234,7 +234,7 @@
             .info_text {
                 font-size: 18px;
             }
-        } 
+        }
 
         .hero_center {
             font-size: 16px;
@@ -243,33 +243,33 @@
 
         .hero_bottom {
             right: 7em;
-            .hero_page { 
+            .hero_page {
                 font-size: 44px;
             }
-        } 
-        
+        }
+
     }
-    
+
 }
 
 // =============================================
 
-@include tablet {  
+@include tablet {
 
     .hero {
-        
+
         .inner {
             padding: 12% 5em 0 5em;
         }
-        
+
         .hero_title {
             font-size: 64px;
 
             .hero_title_sm {
                 font-size: 12px;
-                
+
             }
-        } 
+        }
 
         .hero_top .info_heading {
             font-size: 13px;
@@ -277,7 +277,7 @@
             .info_text {
                 font-size: 17px;
             }
-        } 
+        }
 
         .hero_center {
             font-size: 14px;
@@ -285,27 +285,27 @@
 
         .hero_bottom {
             right: 6em;
-            .hero_page { 
+            .hero_page {
                 font-size: 40px;
             }
-        } 
-        
+        }
+
     }
-    
+
 }
 
 // =============================================
 
-@include mo-lg {  
+@include mo-lg {
 
     .hero {
         min-height: 560px;
         max-height: 900px;
-        
+
         .inner {
             padding: 6em 3.5em 0 3.5em;
         }
-        
+
         .hero_title {
             font-size: 38px;
 
@@ -313,27 +313,27 @@
                 top: -10px;
                 left: 0;
                 font-size: 11px;
-                
+
             }
-        } 
+        }
 
         .hero_top {
             flex-direction: column;
             margin-top: 12px;
-            
+
             .info_heading {
                 margin-bottom: 2px;
                 font-size: 11px;
-                
+
                 .info_text {
                     font-size: 15px;
-                    
+
                     .info_percentage {
                         display: none;
                     }
                 }
             }
-        } 
+        }
 
         .hero_center {
             margin-top: 6em;
@@ -343,45 +343,45 @@
 
         .hero_bottom {
             right: 3.5em;
-            .hero_page { 
+            .hero_page {
                 font-size: 28px;
             }
-        } 
-        
+        }
+
     }
-    
+
 }
 // =============================================
 
-@include mo-sm {  
+@include mo-sm {
 
     .hero {
-        
+
         .inner {
             padding: 6em 3em 0 3em;
         }
-        
+
         .hero_title {
             font-size: 32px;
 
             .hero_title_sm {
                 font-size: 11px;
-                
+
             }
-        } 
+        }
 
         .hero_top {
             margin-top: 10px;
-            
+
             .info_heading {
                 margin-bottom: 2px;
-                
+
                 .info_text {
                     font-size: 14px;
-                    
+
                 }
             }
-        } 
+        }
 
         .hero_center {
             font-size: 12px;
@@ -389,11 +389,11 @@
 
         .hero_bottom {
             right: 3em;
-            .hero_page { 
+            .hero_page {
                 font-size: 24px;
             }
-        } 
-        
+        }
+
     }
-    
+
 }
