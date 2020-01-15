@@ -787,6 +787,8 @@ function generateSubPage(){
     for (var i in customSubPage) {
 
         //name이 일치하는 경우 서브페이지를 그려냅니다.
+        console.log(customSubPage);
+        console.log(pageName);
         if(customSubPage[i].name === pageName){
 
             var num = subPageList.indexOf(pageName) + 1; //현재 페이지가 배열의 몇 번째인지 파악해 num에 대입합니다.
