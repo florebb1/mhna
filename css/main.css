@@ -2840,7 +2840,7 @@ html, body {
   transition: background-image .5s
 }
 
-.coinone .article_detail .detail_main .slider {
+.rtmes .article_detail .detail_main .slider {
   background-color: #111f6f
 }
 
@@ -2864,12 +2864,12 @@ html, body {
   background-color: #6c35b4
 }
 
-.coinone .article_detail .detail_bottom .detail_link {
+.rtmes .article_detail .detail_bottom .detail_link {
   border-color: #111f6f;
   color: #111f6f
 }
 
-.coinone .article_detail .detail_bottom .detail_link:before {
+.rtmes .article_detail .detail_bottom .detail_link:before {
   background-color: #111f6f
 }
 
