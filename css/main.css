@@ -2281,10 +2281,10 @@ html, body {
 }
 
 .rtmes .hero {
-  background-image: url(../images/hero_rtmes.jpg)
+  background-image: url(../images/hero_icop.jpg)
 }
 
-.coinone .hero {
+/* .coinone .hero {
   background-image: url(../images/hero_coinone.jpg)
 }
 
@@ -2306,7 +2306,7 @@ html, body {
 
 .vr .hero {
   background-image: url(../images/hero_vr.jpg)
-}
+} */
 
 @media screen and (min-width: 1921px) {
   .hero .inner {
