@@ -15,7 +15,7 @@ $(function(){
 
         html += ' <div class="fixed"> ';
         html += ' <h1 class="logo"> ';
-        html += ' <img src="images/logo.png" style="width:2.5rem; height:2.5rem;"/>';
+        html += ' <img src="/images/logo.png" style="width:2.5rem; height:2.5rem;"/>';
         html += ' </h1> ';
         html += ' <div class="menu" role="button" tabindex="0"> ';
         html += ' <div class="menu_burger" tabindex="0"> ';
