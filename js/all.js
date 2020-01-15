@@ -162,7 +162,7 @@ $(function(){
                 $(".menu").css({right:'+='+scrollBarWidth()});
             }
 
-        	//브라우저별로 달라지는 스크롤바 너비 구하기
+      	   //브라우저별로 달라지는 스크롤바 너비 구하기
             function scrollBarWidth() {
                 document.body.style.overflow = 'hidden';
                 var width = document.body.clientWidth;
@@ -790,7 +790,7 @@ function generateSubPage(){
         if(customSubPage[i].name === pageName){
 
             var num = subPageList.indexOf(pageName) + 1; //현재 페이지가 배열의 몇 번째인지 파악해 num에 대입합니다.
-
+console.log(num);
 
             // --
             // hero 화면 생성
