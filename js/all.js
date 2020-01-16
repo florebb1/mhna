@@ -513,9 +513,9 @@ var customSubPage = {
             'percent': '(100%)',
 
             'viewCode': true,
-            'detailTitle': 'web | 구축',
+            'detailTitle': 'web & mobile 서비스',
             'detailInfo' : [
-              '',
+              '한국클라우드산업협회 클라우드 성능 품질검사 Potal Site 입니다. 기존의 DB와 API를 활용하여 퍼블리싱만 새롭게 바꾼 작업입니다.'
             ],
 
             'link': false,
