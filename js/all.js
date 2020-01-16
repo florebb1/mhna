@@ -526,11 +526,11 @@ var customSubPage = {
         {
 
             'show': true,
-            'name': '',
+            'name': 'playtime',
 
             'title': 'PlayTime',
             'desc': 'PlayTime 모바일앱&관리자 서비스',
-            'client': 'kcloud',
+            'client': 'playtime',
             'role': 'Front-End &middot; Back-End',
             'percent': '(100% &middot; 100%)',
 
