@@ -506,7 +506,7 @@ var customSubPage = {
             'show': true,
             'name': 'kcloud',
 
-            'title': 'KCloud',
+            'title': 'K-Cloud',
             'desc': 'K-Cloud 서비스',
             'client': 'kcloud',
             'role': 'Front-End',
