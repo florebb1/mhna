@@ -2293,7 +2293,7 @@ html, body {
 }
 
 .playtime .hero {
-  background-image: url(../images/hero_sbi.jpg)
+  background-image: url(../images/hero_playtime.jpg)
 }
 
 /* .vr .hero {
@@ -2845,7 +2845,7 @@ html, body {
 }
 
 .playtime .article_detail .detail_main .slider {
-  background-color: #097fc3
+  background-color: #FFCA02;
 }
 
 .vr .article_detail .detail_main .slider {
@@ -2879,13 +2879,13 @@ html, body {
   background-color: #add5f0;
 }
 
-.sbi .article_detail .detail_bottom .detail_link {
-  border-color: #097fc3;
-  color: #097fc3
+.playtime .article_detail .detail_bottom .detail_link {
+  border-color: #FFCA02;
+  color: #FFCA02;
 }
 
 .playtime .article_detail .detail_bottom .detail_link:before {
-  background-color: #097fc3
+  background-color: #FFCA02;
 }
 
 .vr .article_detail .detail_bottom .detail_link {
