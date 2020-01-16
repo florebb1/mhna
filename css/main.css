@@ -2288,19 +2288,11 @@ html, body {
   background-image: url(../images/hero_mooorr.jpg)
 }
 
-/*.icop .hero {
-  background-image: url(../images/hero_icop.jpg)
-}
-
-.changstarr .hero {
-  background-image: url(../images/hero_changstarr.jpg)
-}
-
-.hca .hero {
+.kcloud .hero {
   background-image: url(../images/hero_hca.jpg)
 }
 
-.sbi .hero {
+/* .sbi .hero {
   background-image: url(../images/hero_sbi.jpg)
 }
 
