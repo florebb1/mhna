@@ -458,7 +458,7 @@ var customSubPage = {
             'name': 'rtmes', //폴더 및 이미지의 이름입니다. CSS 스타일링 역시 반드시 이 이름으로 지정해야 합니다.
 
             'title': 'RTMES Admin',
-            'desc': 'RTMES의 관리자 계정 페이지', //설명
+            'desc': 'RTMES 관리자 서비스', //설명
             'client': 'RTMES', //클라이언트
             'role': 'Front-End', //역할
             'percent': '(100% &middot; 40%)', //기여도
@@ -482,7 +482,7 @@ var customSubPage = {
             'name': 'mooorr',
 
             'title': 'MOOORR',
-            'desc': 'mooorr 서비스',
+            'desc': 'mooorr 사용자&관리자 서비스',
             'client': 'mooorr',
             'role': 'Front-End &middot; Back-End &middot; Server',
             'percent': '(100% &middot; 50% &middot; 100%)',
@@ -520,7 +520,31 @@ var customSubPage = {
 
             'link': false,
             // 'existLink': 'http://argear.io',
-        }
+        },
+
+    'PlayTime':
+        {
+
+            'show': true,
+            'name': '',
+
+            'title': 'PlayTime',
+            'desc': 'PlayTime 모바일앱&관리자 서비스',
+            'client': 'kcloud',
+            'role': 'Front-End &middot; Back-End',
+            'percent': '(100% &middot; 100%)',
+
+            'viewCode': true,
+            'detailTitle': 'web & mobile 서비스',
+            'detailInfo' : [
+              '키즈카페 브랜드인 playtime 그룹의 멤버쉽 서비스를 웹으로 개발 후 네이티브 앱 형태로 껍데기를 씌우는 모바일 웹 앱 mobile webapp 방식을 사용한 작업입니다.',
+              'API 작업은 진코퍼레이션이라는 POS담당 회사에서 오라클DB의 프로시저를 제공하여, JSP로 작업하였습니다.',
+              '또, 아이폰 앱은 xcode의 Swift를 사용하여 만들었으며, 모바일 push는 구글의 Firebase를 이용하여 구현했습니다.'
+            ],
+
+            'link': false,
+            // 'existLink': 'http://argear.io',
+        },
 }
 
 
