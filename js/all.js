@@ -464,7 +464,7 @@ var customSubPage = {
             'percent': '(100% &middot; 40%)', //기여도
             'viewCode': true, //true = 코드 링크 있음, false = 코드 링크 없음
 
-            'detailTitle': '웹퍼블리싱',
+            'detailTitle': 'web',
             'detailInfo' : [
                 'RTMES의 어드민 유저를 위해 만든 관리자 페이지입니다.<br/> 디자이너의 시안 없이, 기획 문서만 있는 상태에서 프론트 개발을 진행하였고, 소요기간은 3일정도 걸린 작업입니다.<br/>',
                 '기획서를 보면서 바로 작업했기 때문에 제가 할 수 있는 범위가 넓어 즐겁게 작업할 수 있었습니다.<br/> 어드민 페이지이기 때문에 디자인 자체보다는 UX 측면을 중시하려 했고,<br/> 일부 요소들은 문구나 위치 선정에 있어 기획자와 의견을 물어가며 바꿔보기도 했습니다.<br/>',
@@ -484,14 +484,16 @@ var customSubPage = {
             'title': 'MOOORR',
             'desc': 'mooorr 서비스',
             'client': 'mooorr',
-            'role': 'Development',
-            'percent': '(100%)',
+            'role': 'Front-End &middot; Back-End &middot; Server',
+            'percent': '(100% &middot; 50% &middot; 100%)',
 
             'viewCode': true,
-            'detailTitle': '웹퍼블리싱 | 구축',
+            'detailTitle': 'web & mobile 서비스 | 구축',
             'detailInfo' : [
               'Mooorr SNS 서비스와 이를 용이하게 관리할 수 있도록 돕는 관리자 플랫폼입니다. 가이드 시안이 거의 없었기에 단순 디자인만 보며 작업을 진행하여 많은 어려움이 있었습니다.<br/>',
-              '또, api는 java spring boot를 통하여 제작중, JPA 경험할 수 있었습니다. 또, 기획이 작업중 계속 바뀌면서 git을 통한 버전관리와 회의록의 중요성도 깨달았던 작업입니다.'
+              'AWS의 EC2를 이용하여 서버를 생성하고, 서버 셋팅 후 배포하였습니다.'
+              'API 작업은 JAVA Spring Boot Framework을 사용하였고, JPA를 이용하여 데이터를 조작하는 경험할 수 있었습니다.'
+              '또, 기획이 작업중 계속 바뀌면서 git을 통한 버전관리와 회의록의 중요성도 깨달았던 작업입니다.'
             ],
 
             'link': false,
@@ -511,7 +513,7 @@ var customSubPage = {
             'percent': '(50%)',
 
             'viewCode': true,
-            'detailTitle': '웹퍼블리싱 | 구축',
+            'detailTitle': 'web | 구축',
             'detailInfo' : [
               'SNS 서비스와 이를 용이하게 관리할 수 있도록 돕는 관리자 플랫폼입니다. 가이드 시안이 거의 없었기에 단순 디자인만 보며 작업을 진행하여 많은 어려움이 있었습니다.<br/>',
               '또, api는 java spring boot를 통하여 제작중, JPA 경험할 수 있었습니다. 또, 기획이 작업중 계속 바뀌면서 버전 관리의 중요성도 깨달았던 작업입니다.'
