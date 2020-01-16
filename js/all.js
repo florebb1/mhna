@@ -464,7 +464,7 @@ var customSubPage = {
             'percent': '(100% &middot; 40%)', //기여도
             'viewCode': true, //true = 코드 링크 있음, false = 코드 링크 없음
 
-            'detailTitle': 'Web Site Front-end | 개발',
+            'detailTitle': '웹퍼블리싱',
             'detailInfo' : [
                 'RTMES의 어드민 유저를 위해 만든 관리자 페이지입니다.<br/> 디자이너의 시안 없이, 기획 문서만 있는 상태에서 프론트 개발을 진행하였고, 소요기간은 3일정도 걸린 작업입니다.<br/>',
                 '기획서를 보면서 바로 작업했기 때문에 제가 할 수 있는 범위가 넓어 즐겁게 작업할 수 있었습니다.<br/> 어드민 페이지이기 때문에 디자인 자체보다는 UX 측면을 중시하려 했고,<br/> 일부 요소들은 문구나 위치 선정에 있어 기획자와 의견을 물어가며 바꿔보기도 했습니다.<br/>',
@@ -644,7 +644,7 @@ function generateSubPage(){
 
             var html_detailTop = '';
 
-            html_detailTop += '<h2 class="detail_title">WebPub. <i class="detail_title_sm">'+customSubPage[i].detailTitle+'</i></h2>';
+            html_detailTop += '<h2 class="detail_title">Web Service. <i class="detail_title_sm">'+customSubPage[i].detailTitle+'</i></h2>';
             html_detailTop += '<div class="detail_info"> <p class="detail_info_text">';
 
             for (var x=0; x < customSubPage[i].detailInfo.length; x++){
