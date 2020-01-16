@@ -2292,11 +2292,11 @@ html, body {
   background-image: url(../images/hero_kcloud.jpg)
 }
 
-/* .sbi .hero {
+.playtime .hero {
   background-image: url(../images/hero_sbi.jpg)
 }
 
-.vr .hero {
+/* .vr .hero {
   background-image: url(../images/hero_vr.jpg)
 } */
 
@@ -2844,7 +2844,7 @@ html, body {
   background-color: #add5f0;
 }
 
-.sbi .article_detail .detail_main .slider {
+.playtime .article_detail .detail_main .slider {
   background-color: #097fc3
 }
 
@@ -2884,7 +2884,7 @@ html, body {
   color: #097fc3
 }
 
-.sbi .article_detail .detail_bottom .detail_link:before {
+.playtime .article_detail .detail_bottom .detail_link:before {
   background-color: #097fc3
 }
 
