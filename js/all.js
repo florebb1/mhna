@@ -509,14 +509,13 @@ var customSubPage = {
             'title': 'KCloud',
             'desc': 'K-Cloud 서비스',
             'client': 'kcloud',
-            'role': 'Development',
-            'percent': '(50%)',
+            'role': 'Front-End',
+            'percent': '(100%)',
 
             'viewCode': true,
             'detailTitle': 'web | 구축',
             'detailInfo' : [
-              'SNS 서비스와 이를 용이하게 관리할 수 있도록 돕는 관리자 플랫폼입니다. 가이드 시안이 거의 없었기에 단순 디자인만 보며 작업을 진행하여 많은 어려움이 있었습니다.<br/>',
-              '또, api는 java spring boot를 통하여 제작중, JPA 경험할 수 있었습니다. 또, 기획이 작업중 계속 바뀌면서 버전 관리의 중요성도 깨달았던 작업입니다.'
+              '',
             ],
 
             'link': false,
