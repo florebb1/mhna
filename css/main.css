@@ -2848,12 +2848,8 @@ html, body {
   background-color: #ff4e00;
 }
 
-.changstarr .article_detail .detail_main .slider {
-  background-color: #323232
-}
-
-.hca .article_detail .detail_main .slider {
-  background-color: #ff7e2d
+.kcloud .article_detail .detail_main .slider {
+  background-color: #add5f0;
 }
 
 .sbi .article_detail .detail_main .slider {
@@ -2882,22 +2878,13 @@ html, body {
   background-color: #ff4e00;
 }
 
-.changstarr .article_detail .detail_bottom .detail_link {
-  border-color: #323232;
-  color: #323232
+.kcloud .article_detail .detail_bottom .detail_link {
+  border-color: #add5f0;
+  color: #add5f0;
 }
 
-.changstarr .article_detail .detail_bottom .detail_link:before {
-  background-color: #323232
-}
-
-.hca .article_detail .detail_bottom .detail_link {
-  border-color: #ff7e2d;
-  color: #ff7e2d
-}
-
-.hca .article_detail .detail_bottom .detail_link:before {
-  background-color: #ff7e2d
+.kcloud .article_detail .detail_bottom .detail_link:before {
+  background-color: #add5f0;
 }
 
 .sbi .article_detail .detail_bottom .detail_link {
