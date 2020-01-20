@@ -545,6 +545,28 @@ var customSubPage = {
             'link': false,
             // 'existLink': 'http://argear.io',
         },
+
+    'aworks':
+        {
+
+            'show': true,
+            'name': 'aworks',
+
+            'title': 'a.works',
+            'desc': 'POSCOICT RPA Service Potal',
+            'client': 'aworks',
+            'role': 'Front-End &middot; Back-End',
+            'percent': '(100% &middot; 100%)',
+
+            'viewCode': true,
+            'detailTitle': 'web 서비스',
+            'detailInfo' : [
+              ''
+            ],
+
+            'link': false,
+            // 'existLink': 'http://argear.io',
+        },
 }
 
 

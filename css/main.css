@@ -2296,9 +2296,9 @@ html, body {
   background-image: url(../images/hero_playtime.jpg)
 }
 
-/* .vr .hero {
+.aworks .hero {
   background-image: url(../images/hero_vr.jpg)
-} */
+}
 
 @media screen and (min-width: 1921px) {
   .hero .inner {
@@ -2848,7 +2848,7 @@ html, body {
   background-color: #FFCA02;
 }
 
-.vr .article_detail .detail_main .slider {
+.aworks .article_detail .detail_main .slider {
   background-color: #6c35b4
 }
 
@@ -2888,12 +2888,12 @@ html, body {
   background-color: #FFCA02;
 }
 
-.vr .article_detail .detail_bottom .detail_link {
+.aworks .article_detail .detail_bottom .detail_link {
   border-color: #6c35b4;
   color: #6c35b4
 }
 
-.vr .article_detail .detail_bottom .detail_link:before {
+.aworks .article_detail .detail_bottom .detail_link:before {
   background-color: #6c35b4
 }
 
