@@ -461,7 +461,7 @@ var customSubPage = {
             'desc': 'RTMES 관리자 서비스', //설명
             'client': 'RTMES', //클라이언트
             'role': 'Front-End', //역할
-            'percent': '(100% &middot; 40%)', //기여도
+            'percent': '(100%)', //기여도
             'viewCode': true, //true = 코드 링크 있음, false = 코드 링크 없음
 
             'detailTitle': 'web',
@@ -532,7 +532,7 @@ var customSubPage = {
             'desc': 'PlayTime 모바일앱&관리자 서비스',
             'client': 'playtime',
             'role': 'Front-End &middot; Back-End',
-            'percent': '(100% &middot; 100%)',
+            'percent': '(100% &middot; 80%)',
 
             'viewCode': true,
             'detailTitle': 'web & mobile 서비스',
