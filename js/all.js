@@ -460,15 +460,15 @@ var customSubPage = {
             'title': 'RTMES Admin',
             'desc': 'RTMES 관리자 서비스', //설명
             'client': 'RTMES', //클라이언트
-            'role': 'Front-End', //역할
-            'percent': '(100%)', //기여도
+            'role': 'Front-End &middot; Back-End', //역할
+            'percent': '(100% &middot; 20%)', //기여도
             'viewCode': true, //true = 코드 링크 있음, false = 코드 링크 없음
 
             'detailTitle': 'web',
             'detailInfo' : [
-                'RTMES의 어드민 유저를 위해 만든 관리자 페이지입니다.<br/> 디자이너의 시안 없이, 기획 문서만 있는 상태에서 프론트 개발을 진행하였고, 소요기간은 3일정도 걸린 작업입니다.<br/>',
+                'RTMES의 어드민 유저를 위해 만든 관리자 페이지입니다.<br/> 디자이너의 시안 없이, 기획 문서만 있는 상태에서 프론트 개발을 진행하였습니다.<br/>',
                 '기획서를 보면서 바로 작업했기 때문에 제가 할 수 있는 범위가 넓어 즐겁게 작업할 수 있었습니다.<br/> 어드민 페이지이기 때문에 디자인 자체보다는 UX 측면을 중시하려 했고,<br/> 일부 요소들은 문구나 위치 선정에 있어 기획자와 의견을 물어가며 바꿔보기도 했습니다.<br/>',
-                'bootstrap4를 활용하여 빠르게 클래스를 재사용할 수 있도록 했습니다.'
+                'Bootstrap4와 codeigniter3를 활용하여 빠르게 작업할 수 있었습니다. 했습니다.'
             ],
 
             'link': false, //true = 외부링크 있음, false = 서브페이지 있음
@@ -491,7 +491,7 @@ var customSubPage = {
             'detailTitle': 'web & mobile 서비스 | 구축',
             'detailInfo' : [
               'Mooorr SNS 서비스와 이를 용이하게 관리할 수 있도록 돕는 관리자 플랫폼입니다. 가이드 시안이 거의 없었기에 단순 디자인만 보며 작업을 진행하여 많은 어려움이 있었습니다.<br/>',
-              'API 작업은 JAVA Spring Boot Framework을 사용하였고, JPA를 이용하여 SQL문을 거의 사용하지 않고 데이터를 조작하는 경험할 수 있었습니다.',
+              'API 작업은 JAVA Spring Boot Framework을 사용하였고, JPA2를 이용하여 SQL문을 거의 사용하지 않고 데이터를 조작하는 경험할 수 있었습니다.',
               'AWS의 EC2를 이용하여 서버를 생성하고, 서버 셋팅 후 배포하였습니다.',
               '또, 기획이 작업중 계속 바뀌면서 GIT을 통한 버전관리와 회의록의 중요성도 깨달았던 작업입니다.'
             ],
@@ -538,7 +538,7 @@ var customSubPage = {
             'detailTitle': 'web & mobile 서비스',
             'detailInfo' : [
               '키즈카페 브랜드인 playtime 그룹의 멤버쉽 서비스를 웹으로 개발 후 네이티브 앱 형태로 껍데기를 씌우는 모바일 웹 앱 mobile webapp 방식을 사용한 작업입니다.',
-              '협력 POS업체에서 오라클DB의 프로시저를 제공하여, API 작업은 JSP로 작업하였습니다. 언어팩을 통하여, 베트남버전을 추가로 작업하였습니다.',
+              '협력 POS업체에서 오라클DB의 프로시저를 제공하여, API작업과 View Template Engine은 JSP로 작업하였습니다. JSTL을 이용하여 언어팩을 추가하여 베트남버전을 오픈하였습니다.',
               '아이폰 앱은 xcode의 Swift를 사용하여 만들었으며, 모바일 push는 구글의 Firebase를 이용하여 구현했습니다.'
             ],
 
@@ -556,12 +556,14 @@ var customSubPage = {
             'desc': 'POSCOICT RPA Service Potal',
             'client': 'aworks',
             'role': 'Front-End &middot; Back-End',
-            'percent': '(100% &middot; 100%)',
+            'percent': '(50% &middot; 80%)',
 
             'viewCode': true,
             'detailTitle': 'web 서비스',
             'detailInfo' : [
-              ''
+              '포스코ICT의 RPA제품 Infomation 홈페이지와 제품의 User Software Repository 홈페이지입니다.',
+              '처음으로 Spring boot를 접해본 프로젝트 사전지식이 많이 부족하여 고생을 많이 하였습니다. Gradle과 같은 Build Tool을 활용하는 방법을 배울 수 있었습니다.'
+              'View Template Engine으로 Freemarker를 사용하였고, DB작업은 JPA와 MyBatis를 혼용하여 작업하였습니다.'
             ],
 
             'link': false,
