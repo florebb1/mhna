@@ -562,7 +562,7 @@ var customSubPage = {
             'detailTitle': 'web 서비스',
             'detailInfo' : [
               '포스코ICT의 RPA제품 Infomation 홈페이지와 제품의 User Software Repository 홈페이지입니다.',
-              '처음으로 Spring boot를 접해본 프로젝트 사전지식이 많이 부족하여 고생을 많이 하였습니다. Gradle과 같은 Build Tool을 활용하는 방법을 배울 수 있었습니다.'
+              '처음으로 Spring boot를 접해본 프로젝트 사전지식이 많이 부족하여 고생을 많이 하였습니다. Gradle과 같은 Build Tool을 활용하는 방법을 배울 수 있었습니다.',
               'View Template Engine으로 Freemarker를 사용하였고, DB작업은 JPA와 MyBatis를 혼용하여 작업하였습니다.'
             ],
 
