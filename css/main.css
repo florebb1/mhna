@@ -2849,7 +2849,7 @@ html, body {
 }
 
 .aworks .article_detail .detail_main .slider {
-  background-color: #17a2b8;
+  background-color: #0a8686;
 }
 
 .rtmes .article_detail .detail_bottom .detail_link {
@@ -2889,12 +2889,12 @@ html, body {
 }
 
 .aworks .article_detail .detail_bottom .detail_link {
-  border-color: #17a2b8;
-  color: #17a2b8;
+  border-color: #0a8686;
+  color: #0a8686;
 }
 
 .aworks .article_detail .detail_bottom .detail_link:before {
-  background-color: #17a2b8;
+  background-color: #0a8686;
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
