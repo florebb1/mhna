@@ -2849,16 +2849,16 @@ html, body {
 }
 
 .aworks .article_detail .detail_main .slider {
-  background-color: #6c35b4
+  background-color: #17a2b8;
 }
 
 .rtmes .article_detail .detail_bottom .detail_link {
   border-color: #111f6f;
-  color: #111f6f
+  color: #111f6f;
 }
 
 .rtmes .article_detail .detail_bottom .detail_link:before {
-  background-color: #111f6f
+  background-color: #111f6f;
 }
 
 .mooorr .article_detail .detail_bottom .detail_link {
@@ -2889,12 +2889,12 @@ html, body {
 }
 
 .aworks .article_detail .detail_bottom .detail_link {
-  border-color: #6c35b4;
-  color: #6c35b4
+  border-color: #17a2b8;
+  color: #17a2b8;
 }
 
 .aworks .article_detail .detail_bottom .detail_link:before {
-  background-color: #6c35b4
+  background-color: #17a2b8;
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
